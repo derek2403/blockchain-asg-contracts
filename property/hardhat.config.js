@@ -18,7 +18,6 @@ module.exports = {
       url: process.env.SAPPHIRE_TESTNET_RPC || "https://testnet.sapphire.oasis.io",
       chainId: 23295,
       accounts: process.env.PRIVATE_KEY ? [process.env.PRIVATE_KEY] : [],
-      // gasPrice: "auto", // optional; Sapphire often uses ~100 gwei
     },
   },
 };
